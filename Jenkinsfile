@@ -5,9 +5,7 @@ pipeline {
       steps {
         echo 'Hello World'
         sh '''pipeline {
-   agent {
-    label \'jdk9\'
-  }
+   agent any
    stages {
       stage(\'Say Hello\') {
          steps {
