@@ -1,14 +1,12 @@
 variable "client_id" {
   description = "HCP client ID"
   type        = string
-  default = "JJLxFxaiRy4RwxCGICrBodh8OFsPdrqr"
 }
 
 variable "client_secret" {
   description = "HCP client secret"
   type        = string
   sensitive   = true
-  default = "hVWhMHnqHK6NqbEooXDmJRG0-20UfUsaNhQILfo25wJiv6EeEcbz_Jp48H4ljFgX"
 }
 
 variable "project_id" {
